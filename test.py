@@ -52,7 +52,7 @@ def get_config(parser):
     cfg_file_path = args.config_file
 
     with open(cfg_file_path, 'r') as stream:
-        config = edict(yaml.load(stream))
+        config = edict(yaml.safe_load(stream))
 
     config.update(args)
     return config
