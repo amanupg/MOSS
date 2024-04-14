@@ -1,7 +1,7 @@
 
 pretrained:  null
 
-pretrain_epochs: 100
+pretrain_epochs: 50
 
 syn_files: 'syn_train.list'
 real_files: 'real_train.list'
@@ -24,7 +24,7 @@ learning_rate_d: 0.00001
 
 moving_average_rate: 0.999
 moving_average_decay: 0.999
-update_moving_iter: 100
+update_moving_iter: 80
 
 ngf: 32
 delta: 16
