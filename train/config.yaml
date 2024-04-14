@@ -6,9 +6,9 @@ pretrain_epochs: 100
 syn_files: 'syn_train.list'
 real_files: 'real_train.list'
 testfiles: 'test.list'
-syn_trainroot: '/content/drive/MyDrive/Machine Learning/Paper/rainy/rainy'
-real_trainroot: '/content/drive/MyDrive/Machine Learning/Paper/Kaggle_Dataset/Rainy(input)/train'
-testroot:  '/content/drive/MyDrive/Machine Learning/Paper/Dataset/Rainy(input)/test' 
+syn_trainroot: '/content/drive/MyDrive/Machine_Learning/Paper/rainy/rainy'
+real_trainroot: '/content/drive/MyDrive/Machine_Learning/Paper/Kaggle_Dataset/Rainy(input)/train'
+testroot:  '/content/drive/MyDrive/Machine_Learning/Paper/Dataset/Rainy(input)/test' 
 
 
 weight_pixel: 10.0
