@@ -44,11 +44,11 @@ batchsize: 32
 test_batchsize: 1
 data_augment: 5
 
-save_iter: 500
-test_iter: 500
+save_iter: 50
+test_iter: 50
 
-total_epochs: 100
-iters_per_epoch: 100
+total_epochs: 50
+iters_per_epoch: 50
 
 align_scale: 4
 
