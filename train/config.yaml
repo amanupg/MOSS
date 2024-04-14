@@ -1,14 +1,14 @@
 
 pretrained:  null
 
-pretrain_epochs: 500
+pretrain_epochs: 100
 
-syn_files: 'ssir_train.list'
+syn_files: 'syn_train.list'
 real_files: 'real_train.list'
-testfiles: 'ssir_test.list'
-syn_trainroot: '/home/YOURPATH/data/rain/ddn/ddn_train'
-real_trainroot: '/home/YOURPATH/data/rain/ssir/real_input'
-testroot:  '/home/YOURPATH/data/rain/ssir/ssir_test' 
+testfiles: 'test.list'
+syn_trainroot: '/content/drive/MyDrive/Machine Learning/Paper/rainy/rainy'
+real_trainroot: '/content/drive/MyDrive/Machine Learning/Paper/Kaggle_Dataset/Rainy(input)/train'
+testroot:  '/content/drive/MyDrive/Machine Learning/Paper/Dataset/Rainy(input)/test' 
 
 
 weight_pixel: 10.0
@@ -24,7 +24,7 @@ learning_rate_d: 0.00001
 
 moving_average_rate: 0.999
 moving_average_decay: 0.999
-update_moving_iter: 500
+update_moving_iter: 100
 
 ngf: 32
 delta: 16
@@ -47,15 +47,11 @@ data_augment: 5
 save_iter: 500
 test_iter: 500
 
-total_epochs: 500
-iters_per_epoch: 500
+total_epochs: 100
+iters_per_epoch: 100
 
 align_scale: 4
 
 workers: 32
 
 save_image_path: 'results'
-
-
-
-
